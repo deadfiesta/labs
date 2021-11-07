@@ -1,0 +1,170 @@
+{
+    
+    "footer": [
+        {
+            "directory": [
+                {
+                    "name": "Company",
+                    "menu": [
+                        {
+                            "name": "About Us",
+                            "link": "/#"
+                        },
+                        {
+                            "name": "Our Leadership",
+                            "link": "/#"
+                        },
+                        {
+                            "name": "Careers",
+                            "link": "/#"
+                        }
+                    ]
+                },
+                {
+                    "name": "Product & Services",
+                    "menu": [
+                        {
+                            "name": "Garena",
+                            "link": "/#"
+                        },
+                        {
+                            "name": "Shopee",
+                            "link": "/#"
+                        },
+                        {
+                            "name": "SeaMoney",
+                            "link": "/#"
+                        }
+                    ]
+                },
+                {
+                    "name": "Useful Info",
+                    "menu": [
+                        {
+                            "name": "Investor Relations",
+                            "link": "/#"
+                        },
+                        {
+                            "name": "Sustainability",
+                            "link": "/#"
+                        },
+                        {
+                            "name": "Media",
+                            "link": "/#"
+                        },
+                        {
+                            "name": "Contact Us",
+                            "link": "/#"
+                        },
+                        {
+                            "name": "Security",
+                            "link": "/#"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "carousel": [
+        {
+            "id": 0,
+            "title": "Sea",
+            "url": "./img/carousel/promo-sea.jpg",
+            "description": "A global consumer internet company"
+        },
+        {
+            "id": 1,
+            "title": "Garena",
+            "url": "./img/carousel/promo-garena.jpg",
+            "description": "Online games development and publishing"
+        },
+        {
+            "id": 2,
+            "title": "Shopee",
+            "url": "./img/carousel/promo-shopee.jpg",
+            "description": "Shop online anytime, anywhere"
+        },
+        {
+            "id": 3,
+            "title": "SeaMoney",
+            "url": "./img/carousel/promo-seamoney.jpg",
+            "description": "Digitalizing payments and financial services"
+        }
+    ],
+    "missions": [
+        {
+            "id": 1,
+            "title": "About Us",
+            "subtitle": "Read about our story",
+            "link": "/#",
+            "thumbnail": "about-us",
+            "icon": "book"
+        },
+        {
+            "id": 2,
+            "title": "Product & Services",
+            "subtitle": "Find out more about our key services",
+            "link": "/#",
+            "thumbnail": "product-services",
+            "icon": "devices"
+        },
+        {
+            "id": 3,
+            "title": "Investor Relations",
+            "subtitle": "Latest investor information and financials",
+            "link": "/#",
+            "thumbnail": "investor-relations",
+            "icon": "presentation"
+        }
+    ],
+    "updates": [
+        {
+            "id": 1,
+            "thumbnail": "freefire",
+            "date": "Jul 29, 2020",
+            "tag": "garena",
+            "title": "Free Fire Teams Up with La Casa De Papel",
+            "p": "Garena has teamed up with Netflix for a crossover between Money Heist (also known as La Casa de Papel) and Free Fire. Plan Bermuda will feature a full in-game takeover, bringing new ways that fans of both the game and series can enjoy Free Fire."
+        },
+        {
+            "id": 2,
+            "thumbnail": "ff-mclaren",
+            "date": "May 25, 2020",
+            "tag": "garena",
+            "title": "Garena Free Fire and McLaren Racing feature the McLaren P1™ and MCLFF in exciting in-game collaboration",
+            "p": "Collaboration with Formula 1 team McLaren Racing will bring exclusive collaboration content and in-game features to Free Fire."
+        },
+        {
+            "id": 3,
+            "thumbnail": "garena",
+            "date": "Jul 29, 2020",
+            "tag": "garena",
+            "title": "Garena World concludes first ever fully virtual edition with over 1.2 million online attendees",
+            "p": "Southeast Asia’s biggest gaming and esports event presented fans with an immersive online experience combining cutting edge technology with entertaining content."
+        },
+        {
+            "id": 4,
+            "thumbnail": "sea-nus",
+            "date": "Jul 29, 2020",
+            "tag": "sea",
+            "title": "Sea makes S$50 million gift to advance cutting-edge research and education at NUS School of Computing",
+            "p": "The gift marks the deepening of a long-term partnership between Sea and the National University of Singapore to nurture and grow Singapore's tech ecosystem."
+        },
+        {
+            "id": 5,
+            "thumbnail": "shopee",
+            "date": "Jan 25, 2020",
+            "tag": "shopee",
+            "title": "Shopee unveils new initiatives at inaugural Shopee Brands Summit",
+            "p": "The event saw Shopee's leadership team share the 2021 roadmap for brands to capture the next wave of growth in the region's e-commerce market as consumers shop and spend more online."
+        },
+        {
+            "id": 6,
+            "thumbnail": "sea",
+            "date": "Jul 29, 2020",
+            "tag": "sea",
+            "title": "Sea Selected for the Award of Digital Full Bank License in Singapore",
+            "p": "Sea today announced that it has been selected for the award of a license to operate a digital full bank in Singapore. The Monetary Authority of Singapore announced earlier today that Sea has been selected for the award of a digital full bank license, the first time such a license is being awarded in Singapore."
+        }
+    ]
+}

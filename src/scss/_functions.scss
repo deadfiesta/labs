@@ -1,0 +1,37 @@
+@function color($color, $tone: "main") {
+    @return map-get(map-get($colors, $color), $tone);
+  }
+  
+  @mixin desktop($size: "1024px", $minmax: "min") {
+    @media (#{$minmax}-width: $size) {
+      @content;
+    }
+  }
+  
+  @mixin col($gap: 1rem) {
+    display: flex;
+    flex-direction: column;
+    gap: $gap;
+    @content;
+  }
+  
+  @mixin list($col: "3", $auto: auto-fill) {
+    display: grid;
+    @if $col == "2" {
+      grid-template-columns: repeat($auto, minmax(200px, 1fr));
+    } @else if $col == "4" {
+      grid-template-columns: repeat($auto, minmax(288px, 1fr));
+    } @else {
+      grid-template-columns: repeat($auto, minmax(396px, 1fr));
+    }
+    gap: 32px;
+    // @include desktop {
+    //   gap: 36px;
+    // }
+    @content;
+  }
+  
+  @mixin transition($property: all, $duration: 0.3s, $ease: ease) {
+    transition: $property $duration $ease;
+    @content;
+  }
