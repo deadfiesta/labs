@@ -15,7 +15,7 @@ import InvestorOverview from './components/InvestorOverview';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={"/sea"}>
         <ScrollToTop>
           <Navbar />
           <Switch>
